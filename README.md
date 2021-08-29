@@ -10,3 +10,5 @@ _Note: This template may not suit for you_
 - SASS integration.
 - Eslint and Prettier integration.
 - Pre-commit hooks.
+- Github action test and lint workflows.
+- Github action deploy to netlify integration.

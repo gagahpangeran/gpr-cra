@@ -40,6 +40,14 @@
     "test": "react-scripts test",
     "type-check": "tsc --noEmit"
   },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,md,scss,html}": [
+      "prettier --write"
+    ],
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",

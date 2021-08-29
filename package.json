@@ -33,7 +33,8 @@
     "lint:eslint": "eslint --quiet \"**/*.{js,jsx,ts,tsx}\"",
     "lint:prettier": "prettier --check \"**/*.{js,jsx,ts,tsx,json,css,scss}\"",
     "start": "BROWSER=NONE react-scripts start",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "type-check": "tsc --noEmit"
   },
   "browserslist": {
     "production": [

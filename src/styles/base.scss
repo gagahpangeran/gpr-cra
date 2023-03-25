@@ -8,3 +8,13 @@ body {
   font-family: sans-serif;
   color: #fff;
 }
+
+a {
+  color: #0096d6;
+  text-decoration: none;
+
+  &:hover,
+  &:active {
+    text-decoration: underline;
+  }
+}

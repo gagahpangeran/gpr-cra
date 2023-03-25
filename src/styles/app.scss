@@ -5,6 +5,11 @@
   justify-content: center;
   height: 100vh;
 
+  &__link {
+    margin: 16px 0;
+    font-size: 20px;
+  }
+
   &__logo {
     width: 300px;
     height: auto;
